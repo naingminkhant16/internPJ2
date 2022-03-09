@@ -122,6 +122,10 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 24px;
+    display: inline-block;
+    border-bottom: 3px solid #eee;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 /* courses  */
@@ -135,9 +139,13 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.courses .card-title {
+    font-weight: bolder
+}
+
 /* activities  */
 .activity {
-    padding: 40px 0 0 0;
+    padding: 40px 0 0px 0;
 }
 
 #act-img-container {
@@ -180,6 +188,82 @@
     color: #fff;
     font-size: 14px;
     padding: 30px 32px;
+}
+
+/* contact  */
+.contact {
+    background-color: #1179EE;
+    color: #fff;
+    padding: 10px;
+}
+
+.contact i {
+    color: #fff;
+    font-size: 25px;
+    margin: 10px 15px;
+}
+
+/* reveal elements  */
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+/* footer  */
+.footer {
+    background-color: #242526;
+    color: white;
+    padding: 80px 0 0 0;
+}
+
+.footer p,
+a {
+    font-size: 10px;
+    color: lightgray;
+    text-decoration: none;
+}
+/* foot  */
+.foot {
+    padding: 10px;
+    background-color: #1c1c1c;
+    /* border-top: 0.5px #4d5368 solid; */
+}
+
+.social i {
+    font-size: 10px;
+    padding: 8px;
+    color: lightgray;
+    background-color: #60667a48;
+    border: 1px solid #60667a48;
+    border-radius: 50%;
+}
+
+.social i:hover {
+    color: #1179EE;
+}
+
+.upArrow {
+    padding: 10px;
+    background-color: #1179EE;
+    color: #fff;
+    border-radius: 5px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.upArrow:hover {
+    color: #fff;
+    background-color: #1178eeb7;
 }
 
 @media only screen and (max-width: 768px) {
