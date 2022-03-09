@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.site-color {
+    color: #1179EE;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: orange;
+    margin-bottom: 20px;
+    /* text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3); */
+}
+
+.container {
+    max-width: 1200px !important;
+}
+
+/* nav  */
+.nav-link.active {
+    /* color: #1ECBE1 !important; */
+}
+
+.nav a:hover {
+    color: #eee;
+}
+
+.top-nav {
+    font-size: 10px;
+    padding: 0px 15px !important;
+    color: #fff;
+    /* border-right: 0.7px solid #eee; */
+    margin: 5px 0;
+}
+
+.top-contact {
+    font-size: 10px;
+    padding: 0px 15px !important;
+    margin: 5px 0;
+    color: #fff;
+    float: left !important;
+}
+
+.navbar .nav-link {
+    font-size: 14px;
+}
+
+.dropdown-menu {
+    background-color: #1179EE;
+}
+
+.dropdown-item {
+    font-size: 14px;
+    color: #fff;
+}
+
+.dropdown-item:hover {
+    color: #7EACCA;
+}
+
+#navbar_top {
+    background-color: #fff;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 5px 5px 0px;
+}
+
+/* carousel  */
+.carousel-item {
+    height: 70vh;
+    background-color: rgb(119, 119, 119);
+    color: white;
+    position: relative;
+    text-align: start;
+}
+
+.car-item-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-justify: auto;
+}
+
+.car-item-container .car-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel .carousel-indicators li {
+    background-color: white;
+}
+
+.carousel .carousel-indicators li.active {
+    background-color: #1179EE;
+}
+
+/* about  */
+.about {
+    margin: 60px auto;
+    color: #eee;
+    font-size: 14px;
+}
+
+.about h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* courses  */
+.courses {
+    /* background-color: #7EACCA; */
+    background-color: #1179EE;
+    padding: 40px 0;
+}
+
+.courses col card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* activities  */
+.activity {
+    padding: 40px 0 0 0;
+}
+
+#act-img-container {
+    position: relative;
+}
+
+.act-img {
+    max-height: 200px;
+    margin-top: 20px;
+    opacity: 1;
+    display: block;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease-in-out;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.67);
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#act-img-container:hover .act-img {
+    opacity: 0.5;
+}
+
+#act-img-container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    color: #fff;
+    font-size: 14px;
+    padding: 30px 32px;
+}
+
+@media only screen and (max-width: 768px) {
+    .car-title {
+        font-size: 20px;
+    }
+
+    .car-item-container small {
+        font-size: 12px;
+    }
+
+    .about {
+        margin-bottom: 0;
+    }
+}
