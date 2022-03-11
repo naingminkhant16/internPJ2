@@ -61,7 +61,7 @@
 }
 
 .dropdown-item:hover {
-    color: #7EACCA;
+    color: #1179EE;
 }
 
 #navbar_top {
@@ -223,7 +223,7 @@
     padding: 80px 0 0 0;
 }
 
-.footer p,
+.footer p, .footer
 a {
     font-size: 10px;
     color: lightgray;
@@ -265,7 +265,15 @@ a {
     color: #fff;
     background-color: #1178eeb7;
 }
-
+/* login  */
+.login {
+    max-width: 1000px;
+    margin: 80px auto;
+    border: 1px #eee solid;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 @media only screen and (max-width: 768px) {
     .car-title {
         font-size: 20px;
