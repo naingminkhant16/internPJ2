@@ -27,19 +27,22 @@ class DB
             $e->getMessage();
         }
     }
+
     public function register($data)
     {
         try {
             $query = "INSERT INTO users(name, email,password, phone)
-                    VALUES (:name, :email, :password,:phone, NOW())";
+                    VALUES (:name, :email, :password,:phone)";
             $statement = $this->pdo->prepare($query);
-            $statement->execute($data);
+            return $statement->execute($data);
 
-            return $this->pdo->lastInsertId();
+            // return $this->pdo->lastInsertId();
         } catch (PDOException $e) {
-            return $e->getMessage();
+            echo $e->getMessage();
+            die();
         }
     }
+
     public function get($id)
     {
         try {
@@ -49,9 +52,25 @@ class DB
             ]);
             return $statement->fetch();
         } catch (PDOException $e) {
-            return $e->getMessage();
+            echo $e->getMessage();
+            die();
         }
     }
+
+    public function checkEmailDuplicated($email)
+    {
+        try {
+            $statement = $this->pdo->prepare("SELECT * FROM users WHERE email=:email");
+            $statement->execute([
+                ":email" => $email
+            ]);
+            return $statement->fetch();
+        } catch (PDOException $e) {
+            echo $e->getMessage();
+            die();
+        }
+    }
+
     public function login($email, $password)
     {
         $statement = $this->pdo->prepare(
@@ -65,6 +84,8 @@ class DB
             if (password_verify($password, $user->password)) {
                 $_SESSION['user']['user_id'] = $user->id;
                 $_SESSION['user']['user_name'] = $user->name;
+                $_SESSION['user']['user_email'] = $user->email;
+                $_SESSION['user']['user_password'] = $user->password;
                 header("location: ../index.php");
             } else {
                 header("location: ../login.php?errPsw");
@@ -73,14 +94,12 @@ class DB
             header("location: ../login.php?errEmail");
         }
     }
+
     public function update($data)
     {
         try {
-            $statement = $this->pdo->prepare("UPDATE users SET name=:name,email=:email,password=:password,phone=:phone WHERE id=:id");
+            $statement = $this->pdo->prepare("UPDATE users SET name=:name,password=:password,phone=:phone WHERE id=:id");
             return $statement->execute($data);
-
-            // print_r($this->pdo->lastInsertId());
-            // die();
         } catch (PDOException $e) {
             return $e->getMessage();
         }

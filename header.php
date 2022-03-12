@@ -35,7 +35,7 @@ session_start();
             <div>
                 <?php if (isset($_SESSION['user'])) : ?>
                     <a class="nav-link top-contact" href="profile.php"><i class="fa-solid fa-user"></i>&nbsp;
-                        Signed in as <?=$_SESSION['user']['user_name'] ?></a>
+                        Signed in as <?= $_SESSION['user']['user_name'] ?> with <?= $_SESSION['user']['user_email'] ?></a>
                 <?php endif; ?>
             </div>
             <div class="d-flex justify-content-evenly" style="background-color:orange;">

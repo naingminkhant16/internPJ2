@@ -20,23 +20,23 @@ $user = $db->get($_SESSION['user']['user_id']);
 
     <div class="row row-cols-1 row-cols-sm-2">
         <div class="col">
-            <img src="images/register.jpg" class="container-fluid">
+            <img src="images/profile.jpg" class="container-fluid">
         </div>
         <div class="col">
             <form action="_actions/update.php" method="POST" class="mt-2" style="max-width: 400px;margin:0 auto;">
                 <?php if (isset($_GET['error'])) : ?>
                     <div class="alert alert-warning" style="font-size:14px">Password doesn't match!</div>
                 <?php endif; ?>
+                <?php if (isset($_GET['pswLenErr'])) : ?>
+                    <div class="alert alert-warning" style="font-size:14px">Password must have at least 6 characters!</div>
+                <?php endif; ?>
+
                 <div class="mb-3">
-                    <label for="name" class="form-label">Name :</label>
+                    <label for="name" class="form-label">Name :</label><br>
+                    <small style="color:red;float:left"><?= isset($_GET['nameReq']) ? '*Name is required' : '' ?></small>
                     <input type="text" class="form-control" name="name" value="<?= $user->name ?>">
                 </div>
-                <div class="mb-3">
-                    <label for="email" class="form-label">Email :</label>
-                    <input type="email" class="form-control" name="email" value="<?= $user->email ?>">
-                </div>
-                <!-- current password  -->
-                <input type="hidden" class="form-control" name="currentpassword" value="<?= $user->password ?>">
+
                 <div class="mb-3">
                     <label for="password" class="form-label">Change Password :</label>
                     <input type="password" class="form-control" name="newpassword" placeholder="Create new password">
@@ -46,7 +46,8 @@ $user = $db->get($_SESSION['user']['user_id']);
                     <input type="password" class="form-control" name="conpassword" placeholder="Confirm password">
                 </div>
                 <div class="mb-3">
-                    <label for="phone" class="form-label">Phone :</label>
+                    <label for="phone" class="form-label">Phone :</label><br>
+                    <small style="color:red;float:left"><?= isset($_GET['phReq']) ? '*Phone is required' : '' ?></small>
                     <input type="text" class="form-control" name="phone" value="<?= $user->phone ?>">
                 </div>
                 <div class="mb-3">
