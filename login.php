@@ -6,6 +6,8 @@ if (!empty($_SESSION['user']['user_name'])) {
 }
 ?>
 <div class="login">
+    <small class="direction"><a href="index.php">Home</a> <i class="fa-solid fa-angle-right"></i> <a href="login.php">Login</a></small>
+
     <h3 class="title text-center text-dark">Welcome Back</h3>
     <p class="text-center" style="color: black;font-size: 16px;">You can now login.</p>
 

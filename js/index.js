@@ -33,12 +33,14 @@ document.addEventListener("DOMContentLoaded", function () {
             // add padding top to show content behind navbar
             navbar_height = document.querySelector('.navbar').offsetHeight;
             document.body.style.paddingTop = navbar_height + 'px';
-            
+            //add nav shadow
+            // document.getElementById('navbar_top').classList.add("add-shadow");
         } else {
             document.getElementById('navbar_top').classList.remove('fixed-top');
             // remove padding top from body
             document.body.style.paddingTop = '0';
-            
+            //remove nav shadow
+            // document.getElementById('navbar_top').classList.remove("add-shadow");
         }
         scrollTopbtn();
         // reveal elements 

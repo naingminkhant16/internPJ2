@@ -12,10 +12,11 @@ use config\DB;
 $db = new DB();
 $user = $db->get($_SESSION['user']['user_id']);
 
-// print_r($user);
 ?>
+
 <div class="login">
-    <h3 class="title text-center text-dark">Your Account Profile</h3>
+    <small class="direction"><a href="index.php">Home</a> <i class="fa-solid fa-angle-right"></i> <a href="profile.php">Profile</a></small>
+    <h3 class="title text-center text-dark">Your Profile</h3>
     <p class="text-center" style="color: black;font-size: 16px;">You can update your information.</p>
 
     <div class="row row-cols-1 row-cols-sm-2">

@@ -40,11 +40,11 @@ session_start();
             </div>
             <div class="d-flex justify-content-evenly" style="background-color:orange;">
                 <?php if (empty($_SESSION['user'])) : ?>
-                    <a class="nav-link top-nav" href="login.php">Login</a>
-                    <a class="nav-link top-nav" href="register.php">Sign Up</a>
+                    <a class="nav-link top-nav" href="login.php">Login &nbsp;<i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+                    <a class="nav-link top-nav" href="register.php">Sign Up &nbsp;<i class="fa-solid fa-user-plus"></i></a>
                 <?php else : ?>
-                    <a class="nav-link top-nav" href="profile.php">Profile</a>
-                    <a class="nav-link top-nav" href="_actions/logout.php">Logout</a>
+                    <a class="nav-link top-nav" href="profile.php"><i class="fa-solid fa-address-card"></i> &nbsp;Profile</a>
+                    <a class="nav-link top-nav" href="_actions/logout.php">Logout &nbsp;<i class="fa-solid fa-arrow-right-from-bracket"></i></a>
                 <?php endif; ?>
             </div>
         </nav>
@@ -67,7 +67,7 @@ session_start();
                     <li class="nav-item p-2 dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="">Courses</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Primary</a></li>
+                            <li><a class="dropdown-item" href="primary.php">Primary</a></li>
                             <li><a class="dropdown-item" href="#">Secondary</a></li>
                             <li>
                                 <hr class="dropdown-divider">

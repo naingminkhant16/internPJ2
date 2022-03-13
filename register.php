@@ -6,6 +6,8 @@ if (!empty($_SESSION['user']['user_name'])) {
 }
 ?>
 <div class="login">
+    <small class="direction"><a href="index.php">Home</a> <i class="fa-solid fa-angle-right"></i> <a href="register.php">Register</a></small>
+
     <h3 class="title text-center text-dark">Sign Up With your email</h3>
     <p class="text-center" style="color: black;font-size: 16px;">We value your privacy.</p>
 
@@ -54,7 +56,7 @@ if (!empty($_SESSION['user']['user_name'])) {
                     <button class="btn btn-primary w-100">
                         Register
                     </button>
-                    <small>Already have account? <a href="login.php" style="color:orange">Login now</a></small>
+                    <small>Already have an account? <a href="login.php" style="color:orange">Login now</a></small>
                 </div>
             </form>
         </div>

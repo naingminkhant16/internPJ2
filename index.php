@@ -8,6 +8,27 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
+            <div class="overlay-image" style="background-image: url('images/slider2.jpg');">
+            </div>
+            <div class="car-item-container">
+                <h2 class="car-title">We offer three kind of <span style="color: orange;">Courses</span><br> for your kids
+                </h2>
+                <hr>
+                <ul>
+                    <li>
+                        <small><a href="primary.php" style="color:orange;font-size:16px">Primary courses</a> for the kids who are between Grade(1 -3).</small>
+                    </li>
+                    <li>
+                        <small><a href="" style="color:orange;font-size:16px">Secondary courses</a> for the kids who are between Grade(1 -3).</small>
+                    </li>
+                    <li>
+                        <small><a href="" style="color:orange;font-size:16px">Summer programs</a> for the kids who are between Grade(1 -3).</small>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-sm btn-outline-light">Explore Courses</a>
+            </div>
+        </div>
+        <div class="carousel-item ">
             <div class="overlay-image" style="background-image: url('images/slider1.jpg');">
             </div>
             <div class="car-item-container">
@@ -16,19 +37,6 @@
                 <small>Lorem ipsum dolor cum
                     enim, ipsa harum eveniet reiciendis rem in placeat deleniti aliquid quasi odit.</small>
                 <br><br><a href="#" class="btn btn-sm btn-outline-light">Learn More</a>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <div class="overlay-image" style="background-image: url('images/slider2.jpg');">
-            </div>
-            <div class="car-item-container">
-                <h2 class="car-title"><span style="color: orange;">Education</span> Needs<br>Complete Solution
-                </h2>
-                <hr>
-                <small>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum debitis perspiciatis
-                    ipsa,
-                    tempore taque saepe, esse nam ipsum
-                    sit voluptatibus accusamus magni.</small>
             </div>
         </div>
         <div class="carousel-item">
@@ -57,7 +65,7 @@
 <!-- register and get discount -->
 <?php if (empty($_SESSION['user'])) : ?>
     <div class="alert alert-info py-2 " style="font-size:20px ;">
-        <p class="container"><i class="fa-solid fa-circle-exclamation"></i>&nbsp;Register and get 5% discount on every course. <a href="register.php" style="font-size: 12px;color:#1179EE">Register Now</a></p>
+        <p class="container"><i class="fa-solid fa-circle-exclamation"></i>&nbsp;Register and get 10% discount on every course. <a href="register.php" style="font-size: 12px;color:#1179EE">Register Now</a></p>
     </div>
 <?php endif; ?>
 <!-- about us  -->
