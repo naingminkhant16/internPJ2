@@ -90,9 +90,9 @@
                                     <small class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio placeat assumenda odit cumque, maxime est eos nam voluptatem aut illo!.</small>
                                     <p class="card-text price">
                                         <?php if (!empty($_SESSION['user'])) : ?>
-                                            &#36;13.5 <span class="text-decoration-line-through">&#36;15</span>
+                                            &#36;27 <span class="text-decoration-line-through">&#36;30</span>
                                         <?php else : ?>
-                                            &#36;15 <a href="register.php">Register and get 10% discount!</a>
+                                            &#36;30 <a href="register.php">Register and get 10% discount!</a>
                                         <?php endif; ?>
                                     </p>
                                     <span class="text-muted" style="font-size: 12px;"><i class="fa-solid fa-book-open"></i>&nbsp;6 lessons | Duration-2week</span>
@@ -101,8 +101,8 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>                                            
-                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half-stroke"></i>
                                             <span style="font-size: 10px;">(37)</span>
                                         </small>
                                         &nbsp;&nbsp;<a href="" class="btn btn-sm btn-primary">Enroll Now</a>
@@ -136,7 +136,7 @@
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star-half-stroke"></i>
+                                            <i class="fa-regular fa-star"></i>
                                             <span style="font-size: 10px;">(35)</span>
                                         </small>
                                         &nbsp;&nbsp;<a href="" class="btn btn-sm btn-primary">Enroll Now</a>

@@ -76,7 +76,7 @@ session_start();
                         </ul>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="">Activities</a>
+                        <a class="nav-link" href="activity.php">Activities</a>
                     </li>
                     <li class="nav-item p-2">
                         <a class="nav-link" href="contact.php">Contact</a>

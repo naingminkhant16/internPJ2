@@ -55,7 +55,7 @@ $user = $db->get($_SESSION['user']['user_id']);
                     <button class="btn btn-primary w-100">
                         Update
                     </button>
-                    <a href="index.php" style="color:blue;text-decoration:none"><i class="fa-solid fa-arrow-left"></i>Back</a>
+                    <!-- <a href="index.php" style="color:blue;text-decoration:none"><i class="fa-solid fa-arrow-left"></i>Back</a> -->
                 </div>
             </form>
         </div>

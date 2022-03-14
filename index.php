@@ -36,7 +36,7 @@
                 <hr>
                 <small>Lorem ipsum dolor cum
                     enim, ipsa harum eveniet reiciendis rem in placeat deleniti aliquid quasi odit.</small>
-                <br><br><a href="#" class="btn btn-sm btn-outline-light">Learn More</a>
+                <br><br><a href="activity.php" class="btn btn-sm btn-outline-light">Learn More</a>
             </div>
         </div>
         <div class="carousel-item">
@@ -143,7 +143,7 @@
 
     <div class="owl-carousel reveal active">
         <div id="act-img-container"> <img class="act-img" src="images/image1.jpg">
-            <a class="middle" href="#">
+            <a class="middle" href="activity.php">
                 <div class="text">
                     <h6>Art</h6>
                     <hr>
@@ -152,7 +152,7 @@
             </a>
         </div>
         <div id="act-img-container"> <img class="act-img" src="images/image2.jpg">
-            <a class="middle" href="">
+            <a class="middle" href="activity.php">
                 <div class="text">
                     <h6>Art</h6>
                     <hr>
@@ -161,7 +161,7 @@
             </a>
         </div>
         <div id="act-img-container"> <img class="act-img" src="images/image 3.jpg">
-            <a class="middle" href="#">
+            <a class="middle" href="activity.php">
                 <div class="text">
                     <h6>Physical</h6>
                     <hr>
@@ -170,7 +170,7 @@
             </a>
         </div>
         <div id="act-img-container"> <img class="act-img" src="images/image 4.jpg">
-            <a class="middle" href="#">
+            <a class="middle" href="activity.php">
                 <div class="text">
                     <h6>Physical</h6>
                     <hr>
@@ -179,35 +179,31 @@
             </a>
         </div>
         <div id="act-img-container"> <img class="act-img" src="images/image 5.jpg">
-            <a class="middle" href="#">
+            <a class="middle" href="activity.php">
                 <div class="text">
-                    <h6>Creativity</h6>
+                    <h6>Teamwork</h6>
                     <hr>
                     <p>Lorem ipsum dolor sit amet consectetur,honey adipisicing elit. Iusto, qui.</p>
                 </div>
             </a>
         </div>
         <div id="act-img-container"> <img class="act-img" src="images/image 6.jpg">
-            <div class="middle">
-                <a class="middle" href="#">
-                    <div class="text">
-                        <h6>Creativity</h6>
-                        <hr>
-                        <p>Lorem ipsum dolor sit amet consectetur,honey adipisicing elit. Iusto, qui.</p>
-                    </div>
-                </a>
-            </div>
+            <a class="middle" href="activity.php">
+                <div class="text">
+                    <h6>Teamwork</h6>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur,honey adipisicing elit. Iusto, qui.</p>
+                </div>
+            </a>
         </div>
         <div id="act-img-container"> <img class="act-img" src="images/image 7.jpg">
-            <div class="middle">
-                <a class="middle" href="#">
-                    <div class="text">
-                        <h6>Creativity</h6>
-                        <hr>
-                        <p>Lorem ipsum dolor sit amet consectetur,honey adipisicing elit. Iusto, qui.</p>
-                    </div>
-                </a>
-            </div>
+            <a class="middle" href="activity.php">
+                <div class="text">
+                    <h6>Creativity</h6>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur,honey adipisicing elit. Iusto, qui.</p>
+                </div>
+            </a>
         </div>
     </div>
 </div>

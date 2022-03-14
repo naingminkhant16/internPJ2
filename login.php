@@ -26,12 +26,12 @@ if (!empty($_SESSION['user']['user_name'])) {
 
                 <div class="mb-3">
                     <label for="email" class="form-label">Email :</label><br>
-                    <small style="color:red;float:left"><?= isset($_GET['emailReq']) ? '*Name is required' : '' ?></small>
+                    <small style="color:red;float:left"><?= isset($_GET['emailReq']) ? '*Email is required' : '' ?></small>
                     <input type="email" class="form-control" name="email">
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Password :</label><br>
-                    <small style="color:red;float:left"><?= isset($_GET['pswReq']) ? '*Name is required' : '' ?></small>
+                    <small style="color:red;float:left"><?= isset($_GET['pswReq']) ? '*Password is required' : '' ?></small>
                     <input type="password" class="form-control" name="password">
                 </div>
                 <div class="mb-3">
