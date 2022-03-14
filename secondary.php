@@ -1,24 +1,24 @@
 <?php require "header.php" ?>
 <div class="container primary">
-    <small class="direction"><a href="index.php">Home</a> <i class="fa-solid fa-angle-right"></i> <a href="primary.php">Primary Courses</a></small>
+    <small class="direction"><a href="index.php">Home</a> <i class="fa-solid fa-angle-right"></i> <a href="secondary.php">Secondary Courses</a></small>
     <div class="row g-5">
         <div class="col col-12 col-md-10">
-            <h5 class="title">Primary Courses</h5>
+            <h5 class="title">Secondary Courses</h5>
             <p class="course-text">
                 &nbsp;&nbsp; In grades 1 to 3 at Educare, students participate in captivating storylines alongside intriguing characters. Through a balance of online and offline activities, students develop fundamental knowledge and skills. There’s no shortage of fun in learning at Educare!
                 The primary mathematics courses develop students’ skills at counting, addition, subtraction, and the basics of multiplication and division. Students taking the language courses explore literary texts, such as fables, plays, poems, and novels. They embark on their science and technology journeys by learning about the characteristics of living things, structures, energy, and the environment. The social studies courses focus on communities, big and small, and different traditions.
             </p><br>
-            <!-- primary courses -->
+            <!--  courses -->
             <div class="row row-cols-1 row-cols-sm-2 g-2">
                 <div class="col reveal active">
-                    <div class="card mb-3" style="max-width: 600px;" id="math">
+                    <div class="card mb-3" style="max-width: 600px;" id="science">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="images/course1.jpg" class="img-fluid rounded-start">
+                                <img src="images/science.jpg" class="img-fluid rounded-start">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Mathematics</h5>
+                                    <h5 class="card-title">Science for kids</h5>
                                     <small class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio placeat assumenda odit cumque, maxime est eos nam voluptatem aut illo!.</small>
                                     <p class="card-text price">
                                         <?php if (!empty($_SESSION['user'])) : ?>
@@ -45,14 +45,14 @@
                     </div>
                 </div>
                 <div class="col reveal active">
-                    <div class="card mb-3" style="max-width: 600px;" id="history">
+                    <div class="card mb-3" style="max-width: 600px;" id="coding">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="images/history.jpg" class="img-fluid rounded-start">
+                                <img src="images/code.jpg" class="img-fluid rounded-start">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">History</h5>
+                                    <h5 class="card-title">Coding for kids</h5>
                                     <small class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio placeat assumenda odit cumque, maxime est eos nam voluptatem aut illo!.</small>
                                     <p class="card-text price">
                                         <?php if (!empty($_SESSION['user'])) : ?>
@@ -79,14 +79,14 @@
                     </div>
                 </div>
                 <div class="col reveal active">
-                    <div class="card mb-3" style="max-width: 600px;" id="geo">
+                    <div class="card mb-3" style="max-width: 600px;" id="art">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="images/geo.jpg" class="img-fluid rounded-start">
+                                <img src="images/art.jpg" class="img-fluid rounded-start">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Geography</h5>
+                                    <h5 class="card-title">Art</h5>
                                     <small class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio placeat assumenda odit cumque, maxime est eos nam voluptatem aut illo!.</small>
                                     <p class="card-text price">
                                         <?php if (!empty($_SESSION['user'])) : ?>
@@ -113,14 +113,14 @@
                     </div>
                 </div>
                 <div class="col reveal active">
-                    <div class="card mb-3" style="max-width: 600px;" id="eng">
+                    <div class="card mb-3" style="max-width: 600px;" id="creativity">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="images/eng.jpg" class="img-fluid rounded-start">
+                                <img src="images/creativity.jpg" class="img-fluid rounded-start">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">English Language</h5>
+                                    <h5 class="card-title">Creativity</h5>
                                     <small class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio placeat assumenda odit cumque, maxime est eos nam voluptatem aut illo!.</small>
                                     <p class="card-text price">
                                         <?php if (!empty($_SESSION['user'])) : ?>
@@ -150,7 +150,7 @@
             </div>
 
         </div>
-       <?php  require "side-course.php" ?>
+        <?php require "side-course.php" ?>
     </div>
 </div>
 <?php require "footer.html" ?>

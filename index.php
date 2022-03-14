@@ -11,21 +11,21 @@
             <div class="overlay-image" style="background-image: url('images/slider2.jpg');">
             </div>
             <div class="car-item-container">
-                <h2 class="car-title">We offer three kind of <span style="color: orange;">Courses</span><br> for your kids
+                <h2 class="car-title">We offer three kind of <span style="color: orange;">Courses</span> for your kids
                 </h2>
                 <hr>
                 <ul>
                     <li>
-                        <small><a href="primary.php" style="color:orange;font-size:16px">Primary courses</a> for the kids who are between Grade(1 -3).</small>
+                        <small><a href="primary.php" style="color:orange;font-size:16px;text-decoration:none;">Primary courses</a></small>
                     </li>
                     <li>
-                        <small><a href="" style="color:orange;font-size:16px">Secondary courses</a> for the kids who are between Grade(1 -3).</small>
+                        <small><a href="secondary.php" style="color:orange;font-size:16px;text-decoration:none;">Secondary courses</a></small>
                     </li>
                     <li>
-                        <small><a href="" style="color:orange;font-size:16px">Summer programs</a> for the kids who are between Grade(1 -3).</small>
+                        <small><a href="summer.php" style="color:orange;font-size:16px;text-decoration:none;">Summer programs</a></small>
                     </li>
                 </ul>
-                <a href="#" class="btn btn-sm btn-outline-light">Explore Courses</a>
+                <a href="#courses" class="btn btn-sm btn-outline-light">Explore Courses</a>
             </div>
         </div>
         <div class="carousel-item ">
@@ -47,7 +47,7 @@
                     for<br>all children worldwide</h2>
                 <hr>
                 <small>Lorem maiores
-                    necessitatibus nostrum enim cum numquam eum eveniet illum!</small>
+                    necessitatibus nostrum enim cum numquam eum eveniet illum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, quibusdam.</small>
             </div>
         </div>
     </div>
@@ -89,12 +89,12 @@
                 generation and to prepare them to be ready for tomorrow’s world. We aim to deliver quality education
                 to
                 provide more opportunities and access.</p>
-            <a href="#" class="btn btn-outline-light">Read More</a>
+            <a href="aboutus.php" class="btn btn-outline-light">Read More</a>
         </div>
     </div>
 </div>
 <!-- courses  -->
-<div class="courses reveal active">
+<div class="courses reveal active" id="courses">
     <div class="container">
         <h3 class="text-center title text-light">Popular <span style="color: orange;">Courses</span></h3>
         <p class="text-center text-light">We offer some special courses for you kids.</p>
@@ -105,23 +105,8 @@
                     <div class="card-body">
                         <h5 class="card-title text-center">Primary</h5>
                         <hr>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of
-                            the card's content.</p>
-                        <a href="" class="btn btn-primary">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col reveal active">
-                <div class="card text-center">
-                    <img src="images/course2.jpg" class="card-img-top" height="300">
-                    <div class="card-body">
-                        <h5 class="card-title text-center">Secondary</h5>
-                        <hr>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of
-                            the card's content.</p>
-                        <a href="" class="btn btn-primary">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                        <p class="card-text">Lorem ipsum dolor sit. Ratione vitae perferendis neque? Esse eveniet ratione officia. Aut labore borum..</p>
+                        <a href="primary.php" class="btn btn-primary">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                 </div>
             </div>
@@ -129,12 +114,21 @@
                 <div class="card text-center">
                     <img src="images/course3.jpg" class="card-img-top" height="300">
                     <div class="card-body">
+                        <h5 class="card-title text-center">Secondary</h5>
+                        <hr>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non repellat repudiandae nam perferendis hic?.</p>
+                        <a href="secondary.php" class="btn btn-primary">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col reveal active">
+                <div class="card text-center">
+                    <img src="images/summer2.jpg" class="card-img-top" height="300">
+                    <div class="card-body">
                         <h5 class="card-title text-center">Summer Programs</h5>
                         <hr>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                            of
-                            the card's content.</p>
-                        <a href="" class="btn btn-primary">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore praesentium commodi earum sapiente explicabo..</p>
+                        <a href="summer.php" class="btn btn-primary">Learn More <i class="fa-solid fa-arrow-right-long"></i></a>
                     </div>
                 </div>
             </div>

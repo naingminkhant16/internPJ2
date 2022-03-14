@@ -62,24 +62,24 @@ session_start();
                         <a class="nav-link" aria-current="page" href="/">Home</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="">About Us</a>
+                        <a class="nav-link" href="aboutus.php">About Us</a>
                     </li>
                     <li class="nav-item p-2 dropdown">
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="">Courses</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="primary.php">Primary</a></li>
-                            <li><a class="dropdown-item" href="#">Secondary</a></li>
+                            <li><a class="dropdown-item" href="secondary.php">Secondary</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Summer Programs</a></li>
+                            <li><a class="dropdown-item" href="summer.php">Summer Programs</a></li>
                         </ul>
                     </li>
                     <li class="nav-item p-2">
                         <a class="nav-link" href="">Activities</a>
                     </li>
                     <li class="nav-item p-2">
-                        <a class="nav-link" href="">Contact</a>
+                        <a class="nav-link" href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>

@@ -313,6 +313,7 @@
 .direction a:hover {
     color: #1178eeb7;
 }
+
 .side-course ul {
     list-style-type: circle;
 }
@@ -320,8 +321,13 @@
     text-decoration: none;
     font-size: 13px;
 }
-
-
+/* side contact  */
+.side-contact p{
+ font-size: 13px;
+}
+.side-contact h6{
+    font-weight: bold;
+}
 
 @media only screen and (max-width: 768px) {
     .car-title {
