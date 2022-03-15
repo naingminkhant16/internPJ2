@@ -13,8 +13,8 @@ class DB
 {
     private const dbhost = "localhost:8080";
     private const dbname = "internpj2";
-    private const username = "root";
-    private const password = '';
+    private const username = "nmk";
+    private const password = '123456';
     protected $pdo;
     public function __construct()
     {
