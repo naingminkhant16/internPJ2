@@ -28,7 +28,7 @@
                 <a href="#courses" class="btn btn-sm btn-outline-light">Explore Courses</a>
             </div>
         </div>
-        <div class="carousel-item ">
+        <div class="carousel-item">
             <div class="overlay-image" style="background-image: url('images/slider1.jpg');">
             </div>
             <div class="car-item-container">

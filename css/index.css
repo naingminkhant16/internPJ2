@@ -80,10 +80,14 @@
 
 .car-item-container {
     position: absolute;
-    left: 50%;
+    left:35%;
     top: 50%;
+    max-width: 600px;
     transform: translate(-50%, -50%);
     text-justify: auto;
+    background-color: #1178eeb2;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .car-item-container .car-title {

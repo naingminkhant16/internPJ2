@@ -19,6 +19,16 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Cooking Class</h5>
+                                    <div class="card-text">
+                                        <small class="text-muted stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half-stroke"></i>
+                                            <span style="font-size: 10px;">(37)</span>
+                                        </small>
+                                    </div>
                                     <small class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio placeat assumenda odit cumque, maxime est eos nam voluptatem aut illo!.</small>
                                     <p class="card-text price">
                                         <?php if (!empty($_SESSION['user'])) : ?>
@@ -28,17 +38,8 @@
                                         <?php endif; ?>
                                     </p>
                                     <span class="text-muted" style="font-size: 12px;"><i class="fa-solid fa-book-open"></i>&nbsp;8 lessons | Duration-1.5mth</span>
-                                    <p class="card-text">
-                                        <small class="text-muted stars">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star-half-stroke"></i>
-                                            <span style="font-size: 10px;">(37)</span>
-                                        </small>
-                                        &nbsp;&nbsp;<a href="" class="btn btn-sm btn-primary">Enroll Now</a>
-                                    </p>
+
+                                    &nbsp;&nbsp;<a href="" class="btn btn-sm btn-primary">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -53,6 +54,16 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Music Class</h5>
+                                    <div class="card-text">
+                                        <small class="text-muted stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half-stroke"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <span style="font-size: 10px;">(32)</span>
+                                        </small>
+                                    </div>
                                     <small class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio placeat assumenda odit cumque, maxime est eos nam voluptatem aut illo!.</small>
                                     <p class="card-text price">
                                         <?php if (!empty($_SESSION['user'])) : ?>
@@ -62,17 +73,8 @@
                                         <?php endif; ?>
                                     </p>
                                     <span class="text-muted" style="font-size: 12px;"><i class="fa-solid fa-book-open"></i>&nbsp;5 lessons | Duration-2mth</span>
-                                    <p class="card-text">
-                                        <small class="text-muted stars">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star-half-stroke"></i>
-                                            <i class="fa-regular fa-star"></i>
-                                            <span style="font-size: 10px;">(32)</span>
-                                        </small>
-                                        &nbsp;&nbsp;<a href="" class="btn btn-sm btn-primary">Enroll Now</a>
-                                    </p>
+
+                                    &nbsp;&nbsp;<a href="" class="btn btn-sm btn-primary">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -87,6 +89,16 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Summer Camps</h5>
+                                    <div class="card-text">
+                                        <small class="text-muted stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half-stroke"></i>
+                                            <span style="font-size: 10px;">(37)</span>
+                                        </small>
+                                    </div>
                                     <small class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio placeat assumenda odit cumque, maxime est eos nam voluptatem aut illo!.</small>
                                     <p class="card-text price">
                                         <?php if (!empty($_SESSION['user'])) : ?>
@@ -96,17 +108,8 @@
                                         <?php endif; ?>
                                     </p>
                                     <span class="text-muted" style="font-size: 12px;"><i class="fa-solid fa-book-open"></i>&nbsp;6 lessons | Duration-2week</span>
-                                    <p class="card-text">
-                                        <small class="text-muted stars">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star-half-stroke"></i>
-                                            <span style="font-size: 10px;">(37)</span>
-                                        </small>
-                                        &nbsp;&nbsp;<a href="" class="btn btn-sm btn-primary">Enroll Now</a>
-                                    </p>
+
+                                    &nbsp;&nbsp;<a href="" class="btn btn-sm btn-primary">Enroll Now</a>
                                 </div>
                             </div>
                         </div>
@@ -121,6 +124,16 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Dance Class</h5>
+                                    <div class="card-text">
+                                        <small class="text-muted stars">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <span style="font-size: 10px;">(35)</span>
+                                        </small>
+                                    </div>
                                     <small class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio placeat assumenda odit cumque, maxime est eos nam voluptatem aut illo!.</small>
                                     <p class="card-text price">
                                         <?php if (!empty($_SESSION['user'])) : ?>
@@ -130,17 +143,8 @@
                                         <?php endif; ?>
                                     </p>
                                     <span class="text-muted" style="font-size: 12px;"><i class="fa-solid fa-book-open"></i>&nbsp;10 lessons | Duration-1.5mth</span>
-                                    <p class="card-text">
-                                        <small class="text-muted stars">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-regular fa-star"></i>
-                                            <span style="font-size: 10px;">(35)</span>
-                                        </small>
-                                        &nbsp;&nbsp;<a href="" class="btn btn-sm btn-primary">Enroll Now</a>
-                                    </p>
+
+                                    &nbsp;&nbsp;<a href="" class="btn btn-sm btn-primary">Enroll Now</a>
 
                                 </div>
                             </div>

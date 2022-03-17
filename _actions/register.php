@@ -47,7 +47,7 @@ if (!empty($_POST)) {
             ":password" => password_hash($psw, PASSWORD_DEFAULT),
             ":phone" => $_POST['phone']
         ];
-    
+
         $result = $db->register($data);
         if (!empty($result)) {
             echo "<script>alert('Registration success');window.location.href='../login.php'</script>";
